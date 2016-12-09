@@ -1,0 +1,305 @@
+html,
+body {
+min-width: 1122px;
+min-height: 1750px;
+margin: 0;
+padding: 0;
+}
+
+body {
+	/*background: url("../_img/index-backgound.jpg") no-repeat top center;
+	background-size: contain;
+	background-attachment: scroll;*/
+}
+
+.clearfix::after {
+	content: "";
+
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-header {
+	margin-bottom: 60px;
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+	min-height: 70px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	min-height: 70px;
+}
+
+.index-logo {
+	width: 368px;
+	height: 204px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	min-height: 175px;
+
+}
+
+.features-item:last-child {
+	margin-right: 0px;
+}
+
+.index-content {
+	padding: 50px 80px;
+	margin-bottom: 35px;
+}
+
+.index-content-left {
+	float: left;
+	width: 380px;
+	min-height: 330px;
+}
+
+.index-content-right {
+	float: right;
+	width: 300px;
+	min-height: 330px;
+}
+
+footer {
+	background: url("../_img/footer-background.jpg");
+}
+
+.main-footer {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.footer-contacts {
+	float:left;
+	width: 320px;
+	min-height: 90px;
+	margin-right: 60px;
+}
+
+.footer-social {
+	float: left;
+	width: 180px;
+	min-height: 90px;
+}
+
+.footer-copyright {
+	float: right;
+	width: 180px;
+	min-height: 90px;
+}
+
+/*Цена*/
+.price-header {
+    margin-bottom: 55px;
+}
+
+.price-navigation {
+	float: left;
+	width: 780px;
+	min-height: 70px;
+}
+
+.price-title {
+	width: 160px;
+	min-height: 80px;
+	margin-bottom: 55px;
+}
+
+.price-content-headline2 {
+	min-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+
+.price-content {
+	margin-bottom: 55px;
+}
+
+.price-content-left {
+	width: 400px;
+	min-height: 220px;
+	float: left;
+}
+
+.price-content-right {
+	width: 480px;
+	min-height: 220px;
+	float: right;
+}
+
+table {
+	width: 460px;
+	min-height: 120px;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.2-column {
+	text-align: right;
+}
+
+/*Каталог*/
+.content-row {
+	float: left;
+}
+
+.content-catalog-main {
+	width: 700px;
+}
+
+.content-catalog-item {
+	display: inline-block;
+	width: 210px;
+	height: 305px;
+	vertical-align: top;
+	background-color: #ffffff;
+	margin-right: 8px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+}
+
+
+.content-catalog-item:nth-child(3) {
+	margin-right: 0;
+}
+
+.content-catalog-item:nth-child(6) {
+	margin-right: 0;
+}
+
+.content-catalog-name {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	padding: 2px;
+	text-transform: uppercase;
+}
+
+.content-catalog-price-container {
+    margin-top: 16px;
+	margin-bottom: 16px;
+	width: 186px;
+	height: 43px;
+	background-color: #e5e5e5;
+	box-sizing: border-box;
+}
+
+.catalog-item-price {
+    float: left;
+	width: 55%;
+	height: 100%;
+	text-align: center;
+	padding-top: 8.5px;
+	font-family: 'PT Sans Narrow', sans-serif;
+    box-sizing: border-box;
+	font-weight: bold;
+}
+
+.catalog-item-button {
+	float: right;
+	width: 45%;
+	height: 100%;
+	text-align: center;
+	padding-top: 8.5px;
+	background-color: black;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.catalog-item-button:hover {
+	background-color: brown;
+}
+
+.content-catalog-name {
+	color: black;
+    text-decoration: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.catalog-item-button a {
+	color: white;
+	text-decoration: none;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.paginator {
+	display: inline;
+	width: 186px;
+	height: 34px;
+}
+
+.paginator-numbers {
+	display: inline-block;
+	background-color: black;
+	width: 28px;
+	height: 34px;
+	margin-bottom: 7px;
+	text-decoration: none;
+}
+
+.paginator-numbers:nth-child(2) {
+	background-color: white;
+	width: 28px;
+	height: 34px;
+	margin-bottom: 7px;
+}
+
+.paginators {
+	display: inline-block;
+	width: 180px;
+	height: 46px;
+	background-color: black;
+
+}
+
+.price-container {
+	width: 200px;
+	height: 70px;
+	box-sizing: border-box;
+}
+
+.price-container span {
+    display: inline-block;
+	width: 110px;
+	height: 70px;
+	background-color: gray;
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+.price-container a {
+    display: inline-block;
+	color: white;
+	background-color: black;
+	width: 80px;
+	height: 70px;
+	text-decoration: none;
+}
